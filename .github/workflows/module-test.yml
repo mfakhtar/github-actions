@@ -17,7 +17,7 @@ jobs:
       TF_CLOUD_HOSTNAME: ${{vars.TF_CLOUD_HOSTNAME}}
       TF_CLOUD_ORGANIZATION: ${{vars.TF_CLOUD_ORGANIZATION}}
       TF_WORKSPACE: ${{vars.TF_WORKSPACE}}
-      TF_API_TOKEN: "${{secrets.TF_TOKEN}}"
+      TF_API_TOKEN: "OPeQEUHt8kSLtQ.atlasv1.zQC78LxKf4y0hdSxZvL59OXtv6vjX2RTgx3PC8xuRWgyMt2apPx1HwLep4E4d6AHdGM"
       
     steps:
       - name: Checkout code
