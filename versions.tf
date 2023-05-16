@@ -10,5 +10,6 @@ terraform {
       source  = "hashicorp/local"
       version = "= 2.3.0"
     }
+    cloud {}
   }
 }
