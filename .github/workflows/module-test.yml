@@ -37,7 +37,7 @@ jobs:
           cat << EOF > backend.tf
           terraform {
           cloud {
-          token = var.token
+          token = "LVoSf6pnp9xfuA.atlasv1.nfQ3El84Lo6zdoo7y9AhJBOZfCHyztyrMYEyn5PNibw1b2nl3Plbme0KeAoJDt9CYkg"
           }
           }
           EOF
