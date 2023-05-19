@@ -37,7 +37,7 @@ jobs:
           cat << EOF > backend.tf
           terraform {
           cloud {
-          token = "LVoSf6pnp9xfuA.atlasv1.nfQ3El84Lo6zdoo7y9AhJBOZfCHyztyrMYEyn5PNibw1b2nl3Plbme0KeAoJDt9CYkg"
+          token = "PKglKzmPZW5y0A.atlasv1.wEvDJfzKd8zMoeROVUUfzkRc6S3LSWAWD0hLpBvsiNuBxgzCDqB1DNXDezzarEKi3YY"
           }
           }
           EOF
@@ -54,10 +54,10 @@ jobs:
         run: terraform validate
 
       - name: Plan changes
-        run: terraform plan
+        run: terraform plan -no-color
       
       - name: Apply changes
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve -no-color
       
       - name: Run additional tests
         id: tests
