@@ -1,3 +1,5 @@
+variable "token" {}
+
 module "pet" {
     source = "./modules/pet"
     string_length = 5
