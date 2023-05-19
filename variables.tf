@@ -3,3 +3,5 @@ variable "string_length" {
   description = "The character length of the string."
   default     = 10
 }
+
+variable "token" {}
